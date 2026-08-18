@@ -89,4 +89,212 @@ Area	Technologies
 │              Operational RAM Ceiling: ~128 GB               │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
+🏗️ Architecture
+                         ┌───────────────┐
+                         │    Clients    │
+                         └───────┬───────┘
+                                 │
+                                 ▼
+                       ┌───────────────────┐
+                       │   Lookup Service  │
+                       │        Go         │
+                       └─────────┬─────────┘
+                                 │
+                                 ▼
+                       ┌───────────────────┐
+                       │  In-Memory Index  │
+                       │  Fast Lookups     │
+                       └─────────┬─────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              │                  │                  │
+              ▼                  ▼                  ▼
+        PostgreSQL            Redis          NATS JetStream
+      Source of Truth         Cache             Events
+              │
+              ▼
+         ClickHouse
+        Analytics/Data
+🔧 Technology Stack
+
+Go PostgreSQL 16 Redis 7 NATS JetStream ClickHouse
+Docker Prometheus Grafana Linux
+
+🧠 Engineering Work
+Designed infrastructure considerations for 1.18B+ records
+Analyzed memory requirements for large in-memory datasets
+Identified an operational ~128 GB RAM ceiling
+Designed for sub-millisecond lookup requirements
+Separated PostgreSQL persistence from the high-speed serving layer
+Used Redis for caching
+Used NATS JetStream for event-driven communication
+Used ClickHouse for analytical workloads
+Investigated CPU/RSS behavior and OOM risks
+Diagnosed PostgreSQL deadlocks including SQLSTATE 40P01
+Implemented deterministic ordering and retry strategies
+📊 Infrastructure Monitoring Platform
+Centralized Monitoring Across a Hybrid Server Fleet
+
+                         ┌──────────────────┐
+                         │     Grafana      │
+                         │    Dashboards    │
+                         └────────▲─────────┘
+                                  │
+                                  │
+                         ┌────────┴─────────┐
+                         │    Prometheus    │
+                         │     Metrics      │
+                         └────────▲─────────┘
+                                  │
+                ┌─────────────────┼─────────────────┐
+                │                 │                 │
+                ▼                 ▼                 ▼
+          Node Exporter        cAdvisor          Endpoints
+                │                 │                 │
+                ▼                 ▼                 ▼
+          Bare Metal           Docker           Services
+                │
+                ▼
+          Hybrid Server Fleet
+⚙️ What I Built
+Centralized Prometheus + Grafana + Alertmanager
+Host-level monitoring
+Container monitoring
+Database monitoring
+Endpoint monitoring
+Automated dashboard generation
+Python-based dashboard source of truth
+GitOps-oriented deployment workflow
+Post-deployment health validation
+UFW-based network segmentation
+Automated host onboarding
+🔍 Production Troubleshooting
+
+Investigated a monitoring problem where cAdvisor container metrics
+could disappear after containers stopped.
+
+Used:
+
+last_over_time()
+
+and:
+
+container_last_seen
+
+to build more reliable container-health detection.
+
+🔧 Technology Stack
+
+Prometheus Grafana Alertmanager cAdvisor
+Node Exporter Docker Python ClickHouse UFW
+
+☸️ Kubernetes & OpenShift Infrastructure
+                      Git Repository
+                            │
+                            ▼
+                     CI/CD Pipeline
+                            │
+                 ┌──────────┴──────────┐
+                 ▼                     ▼
+           Docker Build             Tests
+                 │                     │
+                 └──────────┬──────────┘
+                            ▼
+                    Harbor Registry
+                            │
+                            ▼
+                       Kubernetes
+                            │
+              ┌─────────────┼─────────────┐
+              ▼             ▼             ▼
+            Helm         Services       Ingress
+              │
+              ▼
+                       Production
+Focus Areas
+Kubernetes deployments
+OpenShift administration
+Helm deployments
+Docker containerization
+Container networking
+Macvlan networking
+Service troubleshooting
+Production rollout validation
+Health checks
+Deployment automation
+🧰 Platform Stack
+
+Kubernetes OpenShift Docker Helm Harbor
+Linux Ansible Terraform
+
+🔄 CI/CD & GitOps
+Developer
+    │
+    ▼
+Git Push
+    │
+    ▼
+┌──────────────────────┐
+│     CI Pipeline      │
+├──────────────────────┤
+│ Tests                │
+│ Static Analysis      │
+│ Docker Build         │
+│ Image Tagging        │
+│ Registry Push        │
+└──────────┬───────────┘
+           │
+           ▼
+    Harbor Registry
+           │
+           ▼
+     Deployment
+           │
+           ▼
+    Health Validation
+           │
+           ▼
+       Production
+🛠️ Technologies
+
+GitHub Actions Jenkins Docker Harbor
+Kubernetes Helm Ansible Terraform GitOps
+
+🔥 Production Troubleshooting
+
+One of my strongest engineering interests is finding the actual root
+cause instead of simply restarting services.
+
+Application
+     │
+     ▼
+Container
+     │
+     ▼
+Process
+     │
+     ▼
+Systemd
+     │
+     ▼
+Network
+     │
+     ▼
+Kernel
+     │
+     ▼
+Hardware
+Examples
+PostgreSQL deadlock investigation
+OOM risk detection
+Container monitoring failures
+Linux networking troubleshooting
+Nginx performance investigation
+UFW firewall behavior
+Kubernetes troubleshooting
+Docker networking issues
+L2/L3 network fault isolation
+<div align="center">
+⚡ Build → Automate → Observe → Debug → Improve
+</div> ```
 
