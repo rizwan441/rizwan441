@@ -58,4 +58,35 @@ Area	Technologies
 📨 Messaging	NATS JetStream
 🐧 Systems	Linux • Bare Metal • Systemd
 🔐 Operations	Security • Troubleshooting • Production Debugging
+---
+
+# 🚀 Featured Engineering Projects
+
+<div align="center">
+
+### 🟢 Production & Infrastructure Engineering
+
+</div>
+
+---
+
+## 🚀 1.18 Billion Record Carrier DID Lookup Platform
+
+> High-scale telecom data platform designed around in-memory lookups,
+> PostgreSQL persistence, event streaming, caching, and observability.
+
+### 📊 Scale
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│              CARRIER DID LOOKUP PLATFORM                   │
+│                                                             │
+│                  1,180,000,000+ Records                     │
+│                                                             │
+│              Target: Sub-Millisecond Lookup                 │
+│                                                             │
+│              Operational RAM Ceiling: ~128 GB               │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 
