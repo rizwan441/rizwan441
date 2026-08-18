@@ -32,3 +32,48 @@
 │  ● AUTOMATING    ● MONITORING    ● DEBUGGING    ● BUILDING   │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+
+
+🧑‍💻 About Me
+
+I'm a DevOps & Platform Infrastructure Engineer focused on building,
+automating, monitoring, and troubleshooting production infrastructure.
+
+My work spans Linux, cloud platforms, Kubernetes/OpenShift, Docker,
+CI/CD, infrastructure automation, networking, observability, and
+distributed systems.
+
+I enjoy going beyond deployment:
+
+Build → Deploy → Observe → Debug → Secure → Automate → Improve
+⚙️ Core Engineering Areas
+Area	Technologies
+☁️ Cloud	AWS • Azure
+☸️ Containers	Kubernetes • OpenShift • Docker
+🔄 CI/CD	GitHub Actions • Jenkins
+🏗️ IaC	Terraform • Ansible
+📊 Observability	Prometheus • Grafana • Alertmanager
+🌐 Networking	L2/L3 • VLAN • STP • Routing • Nginx • UFW
+🗄️ Data	PostgreSQL • Redis • MySQL • MongoDB • ClickHouse
+📨 Messaging	NATS JetStream
+🐧 Systems	Linux • Bare Metal • Systemd
+🔐 Operations	Security • Troubleshooting • Production Debugging
+
+
+### Important
+
+
+For now, **don't add anything else**.
+
+
+### Step 5 — Commit it
+
+
+Scroll to the bottom of GitHub's editor.
+
+
+Commit message:
+
+
+```text
+Create DevOps profile header
