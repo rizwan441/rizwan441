@@ -59,21 +59,3 @@ Area	Technologies
 🐧 Systems	Linux • Bare Metal • Systemd
 🔐 Operations	Security • Troubleshooting • Production Debugging
 
-
-### Important
-
-
-For now, **don't add anything else**.
-
-
-### Step 5 — Commit it
-
-
-Scroll to the bottom of GitHub's editor.
-
-
-Commit message:
-
-
-```text
-Create DevOps profile header
