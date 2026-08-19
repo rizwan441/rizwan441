@@ -1,117 +1,136 @@
 <div align="center">
 
-# 👋 Hi, I'm Rizwan Zafar
-
-### 🚀 DevOps & Platform Infrastructure Engineer
-
-**Cloud • Kubernetes • Linux • Automation • CI/CD • Observability**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=25&duration=2800&pause=900&color=36BCF7&center=true&vCenter=true&width=700&lines=DevOps+%26+Platform+Infrastructure+Engineer;Cloud+%7C+Kubernetes+%7C+Linux+%7C+CI%2FCD;Automation+%7C+Observability+%7C+Production+Engineering;Build+%E2%86%92+Automate+%E2%86%92+Observe+%E2%86%92+Improve" alt="Typing animation">
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-rizwan441-181717?style=for-the-badge\&logo=github)](https://github.com/rizwan441)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rizwan%20Zafar-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](YOUR_LINKEDIN_URL)
+<a href="https://github.com/rizwan441">
+<img src="https://img.shields.io/badge/GitHub-rizwan441-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="https://linkedin.com/in/rizwan-zafar7">
+<img src="https://img.shields.io/badge/LinkedIn-Rizwan%20Zafar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:rizwanzafar441@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=rizwan441&style=for-the-badge&color=36BCF7&label=PROFILE+VIEWS" alt="Profile views">
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+<div align="center">
 
-I'm a **DevOps & Platform Infrastructure Engineer** focused on building reliable, automated, and observable infrastructure.
+# 👋 Hi, I'm **Rizwan Zafar**
 
-My experience spans **Linux, cloud platforms, Kubernetes/OpenShift, Docker, CI/CD, infrastructure automation, networking, monitoring, and production troubleshooting**.
+### `DevOps & Platform Infrastructure Engineer`
 
-I enjoy solving infrastructure problems from the application layer down to the system and network level.
+**Cloud Infrastructure · Kubernetes · Automation · CI/CD · Observability**
+
+</div>
+
+---
+
+## 🧑‍💻 About Me
+
+I'm a **DevOps & Platform Infrastructure Engineer** focused on building
+reliable, automated, observable, and scalable infrastructure.
+
+My hands-on experience includes:
+
+**Linux · AWS · Azure · Kubernetes · OpenShift · Docker · CI/CD ·
+Terraform · Ansible · GitOps · Monitoring · Networking**
+
+I enjoy solving real infrastructure problems — from **application and
+container issues to Linux, networking, databases, and production systems**.
 
 ```text
-Build → Automate → Deploy → Observe → Debug → Improve
+        BUILD
+          │
+          ▼
+      AUTOMATE
+          │
+          ▼
+       DEPLOY
+          │
+          ▼
+       OBSERVE
+          │
+          ▼
+        DEBUG
+          │
+          ▼
+       IMPROVE
 ```
 
 ---
 
-## ⚙️ What I Work With
-
 <div align="center">
 
-### ☁️ Cloud & Infrastructure
+## ⚡ TECH STACK
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+<br>
 
-### ☸️ Containers & Platforms
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge\&logo=kubernetes\&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge\&logo=redhatopenshift\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge\&logo=helm\&logoColor=white)
-
-### 🔄 Automation & CI/CD
-
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge\&logo=terraform\&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge\&logo=ansible\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge\&logo=jenkins\&logoColor=white)
-
-### 📊 Observability
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge\&logo=prometheus\&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge\&logo=grafana\&logoColor=white)
-
-### 🌐 Networking
-
-`L2/L3` • `VLAN` • `STP` • `IP Routing` • `Nginx` • `UFW` • `TCP/IP`
+<img src="https://skillicons.dev/icons?i=linux,aws,azure,docker,kubernetes,openshift,helm,terraform,ansible,githubactions,jenkins,prometheus,grafana,nginx,postgresql,redis,mongodb,mysql&perline=9" alt="Technology stack">
 
 </div>
 
 ---
 
-## 💼 Professional Focus
+## 🏗️ What I Work On
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ☁️ Cloud Infrastructure
+### ☁️ Cloud & Infrastructure
 
-AWS • Azure
-Linux & Bare Metal
+AWS · Azure
+Linux · Bare Metal
+Terraform · Ansible
 Infrastructure Automation
-Terraform • Ansible
 
 </td>
-<td width="50%">
 
-### ☸️ Platform Engineering
+<td width="50%" valign="top">
 
-Kubernetes • OpenShift
-Docker • Helm
-CI/CD • GitOps
-Production Deployments
+### ☸️ Cloud Native
+
+Kubernetes · OpenShift
+Docker · Helm
+Container Networking
+Production Operations
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+
+### 🔄 DevOps & CI/CD
+
+GitHub Actions
+Jenkins
+GitOps
+Automated Deployments
+Private Registries
+
+</td>
+
+<td width="50%" valign="top">
 
 ### 📊 Observability
 
 Prometheus
 Grafana
 Alertmanager
-Container & Host Monitoring
-
-</td>
-<td width="50%">
-
-### 🔥 Troubleshooting
-
-Linux
-Networking
-Containers
-Databases
-Production Incidents
+Host & Container Monitoring
+Production Troubleshooting
 
 </td>
 </tr>
@@ -119,72 +138,183 @@ Production Incidents
 
 ---
 
-## 🚀 Selected Engineering Experience
+# 🚀 Engineering Experience
+
+<div align="center">
 
 ### 📡 Large-Scale Telecom Infrastructure
 
-Worked on infrastructure supporting **billion-scale telecom data workloads**, focusing on high-performance lookup systems, memory efficiency, reliability, observability, and production troubleshooting.
+**1.18B+ Records · Low-Latency Systems · Distributed Infrastructure**
 
-### 📊 Infrastructure Monitoring
+</div>
 
-Built and maintained centralized monitoring using **Prometheus, Grafana, Alertmanager, cAdvisor, and Node Exporter**, with automated dashboards and health validation across server infrastructure.
+Worked on infrastructure supporting large-scale telecom data workloads,
+with focus on **memory efficiency, high-performance lookup systems,
+database reliability, caching, event streaming, and observability**.
 
-### ☸️ Kubernetes & OpenShift
-
-Hands-on experience deploying and troubleshooting containerized workloads using **Kubernetes, OpenShift, Docker, Helm, and private container registries**.
-
-### 🔄 CI/CD & Automation
-
-Experience designing automated deployment workflows using **GitHub Actions, Jenkins, Docker, Ansible, Terraform, and GitOps practices**.
-
----
-
-## 🧠 Engineering Mindset
-
-```text
-┌──────────────────────────────────────────────┐
-│                                              │
-│  AUTOMATE  what should not be manual         │
-│  OBSERVE   what matters                      │
-│  DEBUG     from first principles             │
-│  SECURE    every layer                       │
-│  DESIGN    for failure                       │
-│  IMPROVE   continuously                      │
-│                                              │
-└──────────────────────────────────────────────┘
-```
-
----
-
-## 🎓 Certifications & Research
-
-**Microsoft Azure DevOps Engineer Expert — AZ-400**
-
-**Microsoft Azure Administrator — AZ-104**
-
-**Red Hat OpenShift Administration — EX280** *(In Progress)*
-
-🔬 **IEEE Published Research**
-Machine Learning techniques for **Land Use / Land Cover Classification using EuroSAT RGB imagery**
-
----
-
-## 🌱 Currently Exploring
-
-**MLOps • Machine Learning Infrastructure • Edge Computing • Cloud Native Systems**
+`Go` `PostgreSQL` `Redis` `NATS` `ClickHouse` `Docker`
 
 ---
 
 <div align="center">
 
-### 🤝 Let's Build Something Reliable
+### 📊 Infrastructure Monitoring
+
+**Prometheus · Grafana · Alertmanager · Docker**
+
+</div>
+
+Built and operated centralized infrastructure monitoring across servers,
+including **automated dashboards, container monitoring, alerting,
+health validation, and production troubleshooting**.
+
+`Prometheus` `Grafana` `cAdvisor` `Node Exporter` `Python`
+
+---
+
+<div align="center">
+
+### ☸️ Kubernetes & OpenShift
+
+**Container Platforms · Helm · Networking · Production Operations**
+
+</div>
+
+Hands-on experience deploying and troubleshooting containerized workloads
+across **Kubernetes and OpenShift**, including Docker networking,
+Helm deployments, registries, health checks, and rollout validation.
+
+---
+
+# 🔥 How I Think About Troubleshooting
+
+```text
+┌──────────────────────────────────────────────┐
+│                                              │
+│             DON'T JUST RESTART IT            │
+│                                              │
+│              Find the root cause             │
+│                                              │
+│  Application                                 │
+│       ↓                                      │
+│  Container                                   │
+│       ↓                                      │
+│  Process                                     │
+│       ↓                                      │
+│  Systemd                                     │
+│       ↓                                      │
+│  Linux                                       │
+│       ↓                                      │
+│  Network                                     │
+│       ↓                                      │
+│  Kernel                                      │
+│       ↓                                      │
+│  Infrastructure                              │
+│                                              │
+└──────────────────────────────────────────────┘
+```
+
+I enjoy debugging issues involving **Linux, networking, containers,
+databases, monitoring, resource utilization, and production systems**.
+
+---
+
+## 🏆 Certifications
+
+<div align="center">
+
+| Certification                                       | Status |
+| :-------------------------------------------------- | :----: |
+| **Microsoft Azure DevOps Engineer Expert — AZ-400** |    ✅   |
+| **Microsoft Azure Administrator — AZ-104**          |    ✅   |
+| **Red Hat OpenShift Administration — EX280**        |   🔄   |
+
+</div>
+
+---
+
+## 🔬 Research
+
+### IEEE Published Research
+
+**Comparative Analysis of Machine Learning Techniques on EuroSAT RGB
+for Land Use / Land Cover Classification**
+
+My technical interests increasingly sit at the intersection of:
+
+```text
+Cloud Infrastructure
+        ×
+DevOps
+        ×
+Machine Learning
+        ×
+MLOps
+        ×
+Edge Computing
+```
+
+---
+
+## 🌱 Currently Exploring
+
+<div align="center">
+
+`MLOps` · `ML Infrastructure` · `Kubernetes`
+
+`Edge Computing` · `Cloud Native` · `Observability`
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 GitHub
+
+<a href="https://github.com/rizwan441">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=rizwan441&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github">
+
+</a>
+
+<a href="https://github.com/rizwan441">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizwan441&layout=compact&theme=tokyonight&hide_border=true">
+
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+# 🤝 Let's Connect
+
+**Open to interesting opportunities, infrastructure challenges,
+and engineering projects.**
 
 <br>
 
-**DevOps • Cloud • Platform Engineering • MLOps • Edge Computing**
+<a href="https://linkedin.com/in/rizwan-zafar7">
+<img src="https://img.shields.io/badge/LinkedIn-Rizwan%20Zafar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:rizwanzafar441@gmail.com">
+<img src="https://img.shields.io/badge/Email-rizwanzafar441%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+<a href="https://wa.me/923209323343">
+<img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+</a>
 
 <br><br>
 
-⭐ *Build. Automate. Observe. Debug. Improve.*
+### ⚡ Build · Automate · Observe · Debug · Improve
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0369a1,100:22d3ee&height=100&section=footer" width="100%">
 
 </div>
