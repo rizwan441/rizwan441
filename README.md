@@ -4,297 +4,187 @@
 
 ### 🚀 DevOps & Platform Infrastructure Engineer
 
-**Cloud Infrastructure • Kubernetes • Automation • CI/CD • Observability • Networking**
+**Cloud • Kubernetes • Linux • Automation • CI/CD • Observability**
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-rizwan441-181717?style=for-the-badge&logo=github)](https://github.com/rizwan441)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rizwan%20Zafar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazonaws)](https://aws.amazon.com/)
-[![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-
-<br><br>
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  rizwan@devops:~$ whoami                                     │
-│                                                              │
-│  DevOps & Platform Infrastructure Engineer                   │
-│                                                              │
-│  rizwan@devops:~$ focus                                      │
-│                                                              │
-│  Kubernetes • Linux • AWS • Azure • Docker • CI/CD           │
-│  Terraform • Ansible • GitOps • Observability • Networking   │
-│                                                              │
-│  rizwan@devops:~$ status                                     │
-│                                                              │
-│  ● AUTOMATING    ● MONITORING    ● DEBUGGING    ● BUILDING   │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-
-
-🧑‍💻 About Me
-
-I'm a DevOps & Platform Infrastructure Engineer focused on building,
-automating, monitoring, and troubleshooting production infrastructure.
-
-My work spans Linux, cloud platforms, Kubernetes/OpenShift, Docker,
-CI/CD, infrastructure automation, networking, observability, and
-distributed systems.
-
-I enjoy going beyond deployment:
-
-Build → Deploy → Observe → Debug → Secure → Automate → Improve
-⚙️ Core Engineering Areas
-Area	Technologies
-☁️ Cloud	AWS • Azure
-☸️ Containers	Kubernetes • OpenShift • Docker
-🔄 CI/CD	GitHub Actions • Jenkins
-🏗️ IaC	Terraform • Ansible
-📊 Observability	Prometheus • Grafana • Alertmanager
-🌐 Networking	L2/L3 • VLAN • STP • Routing • Nginx • UFW
-🗄️ Data	PostgreSQL • Redis • MySQL • MongoDB • ClickHouse
-📨 Messaging	NATS JetStream
-🐧 Systems	Linux • Bare Metal • Systemd
-🔐 Operations	Security • Troubleshooting • Production Debugging
----
-
-# 🚀 Featured Engineering Projects
-
-<div align="center">
-
-### 🟢 Production & Infrastructure Engineering
+[![GitHub](https://img.shields.io/badge/GitHub-rizwan441-181717?style=for-the-badge\&logo=github)](https://github.com/rizwan441)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rizwan%20Zafar-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](YOUR_LINKEDIN_URL)
 
 </div>
 
 ---
 
-## 🚀 1.18 Billion Record Carrier DID Lookup Platform
+## 👨‍💻 About Me
 
-> High-scale telecom data platform designed around in-memory lookups,
-> PostgreSQL persistence, event streaming, caching, and observability.
+I'm a **DevOps & Platform Infrastructure Engineer** focused on building reliable, automated, and observable infrastructure.
 
-### 📊 Scale
+My experience spans **Linux, cloud platforms, Kubernetes/OpenShift, Docker, CI/CD, infrastructure automation, networking, monitoring, and production troubleshooting**.
+
+I enjoy solving infrastructure problems from the application layer down to the system and network level.
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│              CARRIER DID LOOKUP PLATFORM                   │
-│                                                             │
-│                  1,180,000,000+ Records                     │
-│                                                             │
-│              Target: Sub-Millisecond Lookup                 │
-│                                                             │
-│              Operational RAM Ceiling: ~128 GB               │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-🏗️ Architecture
-                         ┌───────────────┐
-                         │    Clients    │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                       ┌───────────────────┐
-                       │   Lookup Service  │
-                       │        Go         │
-                       └─────────┬─────────┘
-                                 │
-                                 ▼
-                       ┌───────────────────┐
-                       │  In-Memory Index  │
-                       │  Fast Lookups     │
-                       └─────────┬─────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-              │                  │                  │
-              ▼                  ▼                  ▼
-        PostgreSQL            Redis          NATS JetStream
-      Source of Truth         Cache             Events
-              │
-              ▼
-         ClickHouse
-        Analytics/Data
-🔧 Technology Stack
+Build → Automate → Deploy → Observe → Debug → Improve
+```
 
-Go PostgreSQL 16 Redis 7 NATS JetStream ClickHouse
-Docker Prometheus Grafana Linux
+---
 
-🧠 Engineering Work
-Designed infrastructure considerations for 1.18B+ records
-Analyzed memory requirements for large in-memory datasets
-Identified an operational ~128 GB RAM ceiling
-Designed for sub-millisecond lookup requirements
-Separated PostgreSQL persistence from the high-speed serving layer
-Used Redis for caching
-Used NATS JetStream for event-driven communication
-Used ClickHouse for analytical workloads
-Investigated CPU/RSS behavior and OOM risks
-Diagnosed PostgreSQL deadlocks including SQLSTATE 40P01
-Implemented deterministic ordering and retry strategies
-📊 Infrastructure Monitoring Platform
-Centralized Monitoring Across a Hybrid Server Fleet
+## ⚙️ What I Work With
 
-                         ┌──────────────────┐
-                         │     Grafana      │
-                         │    Dashboards    │
-                         └────────▲─────────┘
-                                  │
-                                  │
-                         ┌────────┴─────────┐
-                         │    Prometheus    │
-                         │     Metrics      │
-                         └────────▲─────────┘
-                                  │
-                ┌─────────────────┼─────────────────┐
-                │                 │                 │
-                ▼                 ▼                 ▼
-          Node Exporter        cAdvisor          Endpoints
-                │                 │                 │
-                ▼                 ▼                 ▼
-          Bare Metal           Docker           Services
-                │
-                ▼
-          Hybrid Server Fleet
-⚙️ What I Built
-Centralized Prometheus + Grafana + Alertmanager
-Host-level monitoring
-Container monitoring
-Database monitoring
-Endpoint monitoring
-Automated dashboard generation
-Python-based dashboard source of truth
-GitOps-oriented deployment workflow
-Post-deployment health validation
-UFW-based network segmentation
-Automated host onboarding
-🔍 Production Troubleshooting
-
-Investigated a monitoring problem where cAdvisor container metrics
-could disappear after containers stopped.
-
-Used:
-
-last_over_time()
-
-and:
-
-container_last_seen
-
-to build more reliable container-health detection.
-
-🔧 Technology Stack
-
-Prometheus Grafana Alertmanager cAdvisor
-Node Exporter Docker Python ClickHouse UFW
-
-☸️ Kubernetes & OpenShift Infrastructure
-                      Git Repository
-                            │
-                            ▼
-                     CI/CD Pipeline
-                            │
-                 ┌──────────┴──────────┐
-                 ▼                     ▼
-           Docker Build             Tests
-                 │                     │
-                 └──────────┬──────────┘
-                            ▼
-                    Harbor Registry
-                            │
-                            ▼
-                       Kubernetes
-                            │
-              ┌─────────────┼─────────────┐
-              ▼             ▼             ▼
-            Helm         Services       Ingress
-              │
-              ▼
-                       Production
-Focus Areas
-Kubernetes deployments
-OpenShift administration
-Helm deployments
-Docker containerization
-Container networking
-Macvlan networking
-Service troubleshooting
-Production rollout validation
-Health checks
-Deployment automation
-🧰 Platform Stack
-
-Kubernetes OpenShift Docker Helm Harbor
-Linux Ansible Terraform
-
-🔄 CI/CD & GitOps
-Developer
-    │
-    ▼
-Git Push
-    │
-    ▼
-┌──────────────────────┐
-│     CI Pipeline      │
-├──────────────────────┤
-│ Tests                │
-│ Static Analysis      │
-│ Docker Build         │
-│ Image Tagging        │
-│ Registry Push        │
-└──────────┬───────────┘
-           │
-           ▼
-    Harbor Registry
-           │
-           ▼
-     Deployment
-           │
-           ▼
-    Health Validation
-           │
-           ▼
-       Production
-🛠️ Technologies
-
-GitHub Actions Jenkins Docker Harbor
-Kubernetes Helm Ansible Terraform GitOps
-
-🔥 Production Troubleshooting
-
-One of my strongest engineering interests is finding the actual root
-cause instead of simply restarting services.
-
-Application
-     │
-     ▼
-Container
-     │
-     ▼
-Process
-     │
-     ▼
-Systemd
-     │
-     ▼
-Network
-     │
-     ▼
-Kernel
-     │
-     ▼
-Hardware
-Examples
-PostgreSQL deadlock investigation
-OOM risk detection
-Container monitoring failures
-Linux networking troubleshooting
-Nginx performance investigation
-UFW firewall behavior
-Kubernetes troubleshooting
-Docker networking issues
-L2/L3 network fault isolation
 <div align="center">
-⚡ Build → Automate → Observe → Debug → Improve
-</div> ```
 
+### ☁️ Cloud & Infrastructure
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+
+### ☸️ Containers & Platforms
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge\&logo=kubernetes\&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge\&logo=redhatopenshift\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge\&logo=helm\&logoColor=white)
+
+### 🔄 Automation & CI/CD
+
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge\&logo=terraform\&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge\&logo=ansible\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge\&logo=jenkins\&logoColor=white)
+
+### 📊 Observability
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge\&logo=prometheus\&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge\&logo=grafana\&logoColor=white)
+
+### 🌐 Networking
+
+`L2/L3` • `VLAN` • `STP` • `IP Routing` • `Nginx` • `UFW` • `TCP/IP`
+
+</div>
+
+---
+
+## 💼 Professional Focus
+
+<table>
+<tr>
+<td width="50%">
+
+### ☁️ Cloud Infrastructure
+
+AWS • Azure
+Linux & Bare Metal
+Infrastructure Automation
+Terraform • Ansible
+
+</td>
+<td width="50%">
+
+### ☸️ Platform Engineering
+
+Kubernetes • OpenShift
+Docker • Helm
+CI/CD • GitOps
+Production Deployments
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📊 Observability
+
+Prometheus
+Grafana
+Alertmanager
+Container & Host Monitoring
+
+</td>
+<td width="50%">
+
+### 🔥 Troubleshooting
+
+Linux
+Networking
+Containers
+Databases
+Production Incidents
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Selected Engineering Experience
+
+### 📡 Large-Scale Telecom Infrastructure
+
+Worked on infrastructure supporting **billion-scale telecom data workloads**, focusing on high-performance lookup systems, memory efficiency, reliability, observability, and production troubleshooting.
+
+### 📊 Infrastructure Monitoring
+
+Built and maintained centralized monitoring using **Prometheus, Grafana, Alertmanager, cAdvisor, and Node Exporter**, with automated dashboards and health validation across server infrastructure.
+
+### ☸️ Kubernetes & OpenShift
+
+Hands-on experience deploying and troubleshooting containerized workloads using **Kubernetes, OpenShift, Docker, Helm, and private container registries**.
+
+### 🔄 CI/CD & Automation
+
+Experience designing automated deployment workflows using **GitHub Actions, Jenkins, Docker, Ansible, Terraform, and GitOps practices**.
+
+---
+
+## 🧠 Engineering Mindset
+
+```text
+┌──────────────────────────────────────────────┐
+│                                              │
+│  AUTOMATE  what should not be manual         │
+│  OBSERVE   what matters                      │
+│  DEBUG     from first principles             │
+│  SECURE    every layer                       │
+│  DESIGN    for failure                       │
+│  IMPROVE   continuously                      │
+│                                              │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## 🎓 Certifications & Research
+
+**Microsoft Azure DevOps Engineer Expert — AZ-400**
+
+**Microsoft Azure Administrator — AZ-104**
+
+**Red Hat OpenShift Administration — EX280** *(In Progress)*
+
+🔬 **IEEE Published Research**
+Machine Learning techniques for **Land Use / Land Cover Classification using EuroSAT RGB imagery**
+
+---
+
+## 🌱 Currently Exploring
+
+**MLOps • Machine Learning Infrastructure • Edge Computing • Cloud Native Systems**
+
+---
+
+<div align="center">
+
+### 🤝 Let's Build Something Reliable
+
+<br>
+
+**DevOps • Cloud • Platform Engineering • MLOps • Edge Computing**
+
+<br><br>
+
+⭐ *Build. Automate. Observe. Debug. Improve.*
+
+</div>
